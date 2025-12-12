@@ -1,0 +1,19 @@
+/* tabs.css */
+.tabs{display:flex; gap:8px; align-items:center}
+.tab{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size:13px;
+  padding:8px 12px;
+  border-radius:8px;
+  background:transparent;
+  color:var(--muted);
+  border:1px solid transparent;
+  cursor:pointer;
+}
+.tab--active{
+  color:var(--text);
+  background:linear-gradient(180deg, rgba(124,58,237,0.12), rgba(124,58,237,0.06));
+  border:1px solid rgba(124,58,237,0.18);
+  box-shadow: 0 6px 18px rgba(124,58,237,0.04);
+}
+.tab:focus{outline:none}

@@ -1,0 +1,14 @@
+/* layout.css - main layout */
+.app__container{
+  width:min(1180px,96%);
+  margin:0 auto;
+  display:grid;
+  grid-template-columns: 320px 1fr;
+  gap:24px;
+  align-items:start;
+}
+
+/* make it responsive */
+@media (max-width:980px){
+  .app__container{grid-template-columns:1fr; padding-bottom:40px}
+}

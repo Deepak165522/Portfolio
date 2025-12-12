@@ -1,0 +1,30 @@
+/* base.css - fonts & variables */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&family=Inter:wght@300;400;600;700&display=swap');
+
+:root{
+  --bg:#0b0f14;
+  --panel:#0f1720;
+  --card:#0b1217;
+  --muted:#9aa4b2;
+  --accent:#7c3aed;
+  --cyan:#06b6d4;
+  --yellow:#f59e0b;
+  --pink:#d946ef;
+  --text:#e6eef8;
+  --border:rgba(255,255,255,0.06);
+  --glass: rgba(255,255,255,0.02);
+}
+
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{
+  margin:0;
+  font-family:Inter, 'IBM Plex Mono', system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
+  background:linear-gradient(180deg, #07090b 0%, #0b0f14 100%);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  padding:28px;
+}
+a{color:var(--cyan); text-decoration:none}
+.container{width:min(1180px,92%); margin:0 auto}

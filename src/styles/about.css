@@ -1,0 +1,8 @@
+.about{
+  background: linear-gradient(180deg, rgba(255,255,255,0.01), transparent);
+  padding:40px 0;
+}
+.about .container{display:block}
+.about h2{color:var(--text); margin-bottom:12px}
+.about__list{margin-top:12px; color:var(--muted); list-style:none; padding:0}
+.about__list li{margin-bottom:8px}

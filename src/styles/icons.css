@@ -1,0 +1,2 @@
+/* icons css: ensure svg icons inherit color */
+.icon__svg{display:block; fill:currentColor}

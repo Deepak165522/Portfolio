@@ -1,0 +1,25 @@
+/* markdown.css - mimic code / markdown style */
+.md{
+  font-family: 'IBM Plex Mono', monospace;
+  color:var(--muted);
+  line-height:1.6;
+  font-size:14px;
+}
+.md__title{
+  color:var(--pink);
+  font-size:18px;
+  margin-bottom:12px;
+}
+.md__subtitle{
+  color:var(--cyan);
+  margin-top:14px;
+  margin-bottom:8px;
+  font-size:15px;
+}
+.md__text{color:var(--muted); margin-bottom:10px}
+.md__list{margin-left:18px; color:var(--muted)}
+.md__list li{margin:6px 0}
+.md__projects{display:grid; gap:12px}
+.md__project{background:transparent; border-left:3px solid rgba(255,255,255,0.03); padding:10px; border-radius:6px}
+.md__project-title{color:var(--yellow); margin-bottom:6px}
+.md__link{color:var(--cyan); display:inline-block; margin-top:8px}

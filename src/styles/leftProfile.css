@@ -1,0 +1,52 @@
+/* leftProfile.css */
+.left{
+  position:relative;
+}
+.left__card{
+  background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border:1px solid var(--border);
+  padding:22px;
+  border-radius:12px;
+  box-shadow: 0 10px 30px rgba(2,6,23,0.6);
+}
+.left__avatar{
+  width:86px;
+  height:86px;
+  border-radius:10px;
+  object-fit:cover;
+  border:2px solid rgba(255,255,255,0.04);
+  display:block;
+}
+.left__name{margin:12px 0 4px; font-weight:700}
+.left__role{color:var(--pink); margin-bottom:6px; font-weight:600}
+.left__location{color:var(--muted); font-size:14px; margin-bottom:12px}
+.left__summary{color:var(--muted); font-size:14px; line-height:1.5; margin-bottom:14px}
+
+/* terminal box */
+.left__terminal{
+  border:1px solid rgba(255,255,255,0.06);
+  background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.0));
+  padding:12px;
+  border-radius:8px;
+  font-family: 'IBM Plex Mono', monospace;
+  color:var(--muted);
+  font-size:13px;
+  margin-bottom:14px;
+}
+.terminal__line{margin:6px 0}
+.terminal__prompt{color:var(--yellow); margin-right:8px}
+
+/* social icons */
+.left__social{display:flex; gap:10px; margin-top:10px}
+.icon{
+  width:40px;
+  height:40px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:8px;
+  border:1px solid rgba(255,255,255,0.04);
+  background:transparent;
+  color:var(--text);
+}
+.icon__svg{width:18px; height:18px}

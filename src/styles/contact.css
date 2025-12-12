@@ -1,0 +1,5 @@
+.contact{padding:40px 0; background:linear-gradient(180deg, transparent, rgba(255,255,255,0.01))}
+.contact__links{display:flex; gap:12px; margin-top:12px}
+@media (max-width:640px){
+  .contact__links{flex-direction:column}
+}
